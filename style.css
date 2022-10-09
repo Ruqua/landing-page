@@ -14,7 +14,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 191, 191);
   font-family:'Candara';
   
 }
@@ -24,13 +23,11 @@ header {
   width: 450px;
   justify-content: space-between;
   margin: 20px 0 40px 0;
-  background-color: rgb(255, 191, 191);
 }
 
 h1 {
   font-size: 40px;
   text-align: center;
-  background-color: rgb(255, 191, 191);
   font-family:'Candara';
 }
 
@@ -46,26 +43,21 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(255, 191, 191);
 }
 
 
 
 footer {
   height: 50px;
-  background-color: rgb(255, 191, 191);
   font-family:'Candara';
   
 }
 
-hr {
-  background-color: rgb(255, 191, 191);
-}
 
 div.footer {
   height: 100%;
-  align-items: center;
-  justify-content: space-around;
+  align-items: left;
+  justify-content: space-between;
 }
 
 
