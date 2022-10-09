@@ -37,6 +37,7 @@ h1 {
 h2 {
   font-size: 50px;
   text-align: center;
+  background-color: rgb(255, 191, 191);
   font-family:'Candara';
 }
 
@@ -64,15 +65,16 @@ hr {
 div.footer {
   height: 100%;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
+
 div.footer > p.footer-infos {
-  margin: 0 30px;
+  margin: 0 20px;
 }
 
 p.footer-steam {
-  margin: 0 50px 0 50px;
-  font-size: 50px;
+  margin: 0 30px 0 30px;
+  font-size: 40px;
   
 }
