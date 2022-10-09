@@ -1,11 +1,12 @@
-
+font-family:'Candara',sans-serif;
 
 header {
-  min-height: 20vh;
-  background-color: rgb(255, 255, 255);
-  padding: 50px;
+  min-height: 5vh;
+  background-color: rgb(255, 191, 191);
+  padding: 10px;
   align-items: center;
   justify-content: center;
+  
 }
 
 .flexbox {
@@ -13,18 +14,65 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(255, 191, 191);
+  font-family:'Candara';
+  
 }
 
-.flexbox.flex-row {
-  flex-direction: row;
-}
-
-.flexbox.flex-column {
-  flex-direction: column;
-}
 
 .flexbox.header-links {
   width: 450px;
   justify-content: space-between;
   margin: 20px 0 40px 0;
+  background-color: rgb(255, 191, 191);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(255, 191, 191);
+  font-family:'Candara';
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family:'Candara';
+}
+
+.categorie {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 191, 191);
+}
+
+
+
+footer {
+  height: 50px;
+  background-color: rgb(255, 191, 191);
+  font-family:'Candara';
+  
+}
+
+hr {
+  background-color: rgb(255, 191, 191);
+}
+
+div.footer {
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+div.footer > p.footer-infos {
+  margin: 0 30px;
+}
+
+p.footer-steam {
+  margin: 0 50px 0 50px;
+  font-size: 50px;
+  
 }
