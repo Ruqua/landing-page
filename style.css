@@ -1,0 +1,30 @@
+
+
+header {
+  min-height: 20vh;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox.flex-row {
+  flex-direction: row;
+}
+
+.flexbox.flex-column {
+  flex-direction: column;
+}
+
+.flexbox.header-links {
+  width: 450px;
+  justify-content: space-between;
+  margin: 20px 0 40px 0;
+}
